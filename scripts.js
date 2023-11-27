@@ -1,6 +1,5 @@
 const cadastrarEstudantes = () => {
     let estudantes = [];
-
     do {
         let nomeAluno = prompt("Digite o nome do estudante que deseja cadastrar (ou digite 'PARE' para encerrar o programa)").toUpperCase();
         if (nomeAluno === 'PARE') {
@@ -16,7 +15,6 @@ const cadastrarEstudantes = () => {
 
 const verificarPlanetas = () => {
     const planetas = ["Vênus", "Terra", "Plutão", "Marte", "Jupiter", "Saturno"];
-
     for (let i = 0; i < planetas.length; i++) {
         planetas[i] = planetas[i].toLowerCase();
     }
@@ -33,8 +31,7 @@ const verificarPlanetas = () => {
 }
 
 const listarCompras = () => {
-    const frutas = ['Banana', 'Melancia', 'Uva', 'Morango', 'Caju', ''];
-
+    const frutas = ['Banana', 'Limão', 'Melancia', 'Uva', 'Morango', 'Caju', 'Melão', 'Maracujá', 'Pitaya', 'Jabuticaba'];
     while (frutas.length > 0) {
         if (frutas.length == 0) {
             break;
